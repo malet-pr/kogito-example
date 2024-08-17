@@ -18,16 +18,17 @@ public class ExampleResource {
     private final MeterRegistry registry;
     private final LinkedList<Long> list = new LinkedList<>();
 
+    /*
     ExampleResource(MeterRegistry registry) {
         this.registry = registry;
         registry.gaugeCollectionSize("example.list.size", Tags.empty(), list);
     }
+    */
 
-    /*
     ExampleResource(MeterRegistry registry) {
         this.registry = registry;
     }
-    */
+
 
     @GET
     @Path("prime/{number}")
