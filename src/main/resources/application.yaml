@@ -1,0 +1,12 @@
+quarkus:
+  datasource:
+    db-kind: postgresql
+    jdbc:
+      url: jdbc:postgresql://localhost:5432/kogito_example
+    username: kogito
+    password: kogito
+    metrics:
+      enabled: true
+  flyway:
+    migrate-at-start: true
+    baseline-on-migrate: true
