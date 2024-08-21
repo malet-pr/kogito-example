@@ -1,4 +1,4 @@
-package org.acme.testEntity;
+package sampleCode.testEntity;
 
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import javax.enterprise.context.ApplicationScoped;

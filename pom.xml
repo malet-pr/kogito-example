@@ -35,14 +35,15 @@
             <artifactId>kogito-quarkus</artifactId>
             <version>1.44.1.Final</version>
         </dependency>
-
-<!--  THIS DEPENDENCY CANNOT BE ACTIVATED UNTIL SOME MORE DEVELOPMENT IS DONE
         <dependency>
             <groupId>org.kie.kogito</groupId>
             <artifactId>kogito-legacy-api</artifactId>
             <version>1.20.0.Final</version>
         </dependency>
--->
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-spring-di</artifactId>
+        </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-resteasy</artifactId>

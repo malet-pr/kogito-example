@@ -1,6 +1,6 @@
-package org.acme.testEntity;
+package sampleCode.testEntity;
 
-import org.acme.BaseEntity;
+import sampleCode.BaseEntity;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 

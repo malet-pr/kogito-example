@@ -1,4 +1,4 @@
-package org.acme.testEntity;
+package sampleCode.testEntity;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

@@ -1,4 +1,4 @@
-package org.acme;
+package sampleCode;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 

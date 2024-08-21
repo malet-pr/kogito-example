@@ -1,4 +1,4 @@
-package org.acme.testEntity;
+package sampleCode.testEntity;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

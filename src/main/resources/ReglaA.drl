@@ -1,0 +1,11 @@
+
+import org.acme.kogitoexample.adapter.OTReglaAdapter
+
+dialect "mvel"
+
+rule "Empty Rule"
+   when
+      OTReglaAdapter.tareaCodigo == ""
+   then
+      System.out.println(" Empty Rule ");
+end
